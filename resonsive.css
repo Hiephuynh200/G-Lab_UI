@@ -1,0 +1,91 @@
+@media (max-width: 992px) {
+    .header-in  {
+        display: none;
+    }
+
+    .header {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom:1px solid rgb(204, 200, 200) ;
+    }
+
+    .logo-top  {
+        margin-left: 10rem;
+    }
+    .icon-header{
+        margin: 0;
+    }
+    .icon-header-none {
+        visibility:hidden;
+    }
+
+    .togger-menu-icon  {
+        display: block;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-left: 2rem;
+        color:#6c6c6c ;
+
+    }
+
+    .body {
+        padding: 0;
+    }
+
+    .icon-body-img {
+        margin: -2px 5rem;
+        font-size: 20px;
+        top: 40%;
+    }
+
+    .product {
+        display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    }
+
+    .product-content {
+        width: 100%;
+
+    }
+    .product-content p {
+        text-align: center;
+        padding-right: 16px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    .item img {
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+    
+   .product-content span {
+        margin:1rem 0 ;
+    }
+
+    .container-footer {
+        padding: 2rem 0;
+    }
+    .wrap-img img {
+        max-width: 100%;
+    }
+
+    .inpu input {
+        width: 90%;
+    }
+
+    .box-content h3 {
+        text-align: left;
+    }
+
+    .box-content{
+        padding: 2rem 2%;
+        text-align: left;
+    }
+}

@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    max-height: 100%;
+}
+
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 84rem;
+    padding: 15px 0;
+}
+
+.icon-header {
+    font-size: 20px;
+    margin-right: 20rem;
+}
+
+.icon-header a {
+    color:#bfbfbf ;
+    text-decoration: none;
+    margin: 0 11px;
+}
+
+.header-in {
+    position: relative;
+    text-align: center;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.title a{
+    color: #262626;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 25px;   
+    text-decoration: none; 
+    font-size: 1.2rem;
+}
+.title a:hover {
+    color: red;
+    border-bottom:2px solid red ;
+}
+
+.body {
+    padding: 2rem 0;
+    position: relative;
+}
+
+.body-img {
+    width: 100%;
+}
+
+.body-img  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-body-img {
+    position: absolute;
+    top: 47%;
+    right: 0 ;
+    left: 0;
+    font-size: 43px;
+    margin: 0 23rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tile-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(34rem, 0fr));
+    gap: 4.5rem;
+    font-size: 1.5rem;
+    display: none
+}
+
+
+
+.text-hover li{  
+    position: relative;
+    top: 44%;
+    left: 132%;
+    right: 0;
+    z-index: 1;
+    list-style: none;
+    padding: 1rem 0;
+    text-align: center;
+
+}
+
+.text-hover li:hover {
+    color: #7c7c7c;
+    cursor: pointer;
+}
+
+
+.icon a {
+    color: #000;
+    text-decoration: none;
+}
+
+.icon a:hover {
+    color: #6c6c6c;
+}
+
+.poduct-home {
+    padding: 1rem 9%;
+}
+
+
+.poduct-home h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #262626;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap:2rem;
+}
+.product-content p {
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.item img {
+    cursor: pointer;
+}
+
+.line-thought {
+    color: #7c7c7c85;
+    text-decoration: line-through;
+}
+
+.product-content span {
+    display: block;
+    text-align: center;
+    color: #7c7c7c;
+    font-size: 1.3rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+.btn-product1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-product1 button {
+    padding:10px 20px;
+    background: #000;
+    color: #fff;  
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-product1 button:hover {
+    color: #008489;
+}
+
+.container-footer {
+    padding: 2rem 9%;
+}
+
+.row-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
+    gap: 2rem;
+    position: relative;
+
+}
+
+.wrap-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+}
+
+.footer {
+    background-color: #262626;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.footer-logo {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.footer-logo img {
+    background: #fff;
+    padding: 10px 10px;
+}
+
+.inpu {
+    width: 100%;;
+}
+
+.inpu input {
+    width: 30%;
+    background-color: #262626;
+    outline: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+
+.inpu i {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: -28px;
+    cursor: pointer;
+}
+
+.inpu i:hover {
+    color: #6c6c6c;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
+    gap: 2rem; 
+    margin-top: 5rem;
+}
+.box-content {
+    padding: 2rem 9%;
+}
+.togger-menu {
+    display: none;
+}
+
+.box-content h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box-content a{
+    display: block;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.box-content a:hover {
+    text-decoration: underline;
+}
